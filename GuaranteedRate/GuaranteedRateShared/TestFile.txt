@@ -1,0 +1,6 @@
+﻿Ann , Jones , Female , 200 , 2/8/1957
+Bill | Gates | Male | 390 | 20/8/2000
+Jane , Jefferson , Female , 250 , 2/4/2005
+John Edwards Male 500 23/6/1967
+Lilian | LeQuellec | Female | 120 | 22/1/1987
+Clay Edwards Male 400 15/9/2002
