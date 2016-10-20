@@ -70,13 +70,13 @@ namespace UnitTestProject
             using (TextReader sr = new StringReader(myTestString))
             {
                 result = deserializer.Deserialize(sr);
-                Assert.AreEqual(result.Count(), 0);
+                Assert.AreEqual(result, null);
             }
             myTestString = "Ann JonesSpace Female asdd 23/6/1967";//Invalid color format
             using (TextReader sr = new StringReader(myTestString))
             {
                 result = deserializer.Deserialize(sr);
-                Assert.AreEqual(result.Count(), 0);
+                Assert.AreEqual(result, null);
             }
         }
     }
